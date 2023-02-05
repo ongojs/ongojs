@@ -1,0 +1,5 @@
+"@afrosintech/db-callback": "^0.0.10",
+    "@afrosintech/db-migration": "^0.0.2",
+    "@afrosintech/db-query": "^0.0.1",
+    "@afrosintech/db-query-validator": "^0.0.1",
+    "@afrosintech/model": "^0.0.11"

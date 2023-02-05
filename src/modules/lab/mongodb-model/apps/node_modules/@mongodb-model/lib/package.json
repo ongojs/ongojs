@@ -1,0 +1,30 @@
+{
+  "name": "@mongodb-model/lib",
+  "version": "0.0.10",
+  "description": "lib",
+  "main": "index.js",
+  "bin": {
+    "lib": "bin/index.js"
+  },
+  "directories": {
+    "doc": "docs",
+    "lib": "lib",
+    "test": "test"
+  },
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mongodb-model/lib.git"
+  },
+  "keywords": [
+    "libb"
+  ],
+  "author": "Ericson S. Weah <ericson.weah@gmail.com> (https://www.ericsonweah.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mongodb-model/lib/issues"
+  },
+  "homepage": "https://github.com/mongodb-model/lib#readme"
+}

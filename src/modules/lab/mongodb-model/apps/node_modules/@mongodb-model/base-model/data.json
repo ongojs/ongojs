@@ -1,0 +1,20 @@
+"dependencies": {
+    "@mongodb-model/base": "^0.0.10000",
+    "@mongodb-model/cli": "^0.0.0",
+    "@mongodb-model/controller": "^0.0.0",
+    "@mongodb-model/couleurs": "^0.0.0",
+    "@mongodb-model/db-callback": "^0.0.0",
+    "@mongodb-model/db-migration": "^0.0.0",
+    "@mongodb-model/db-query": "^0.0.10000",
+    "@mongodb-model/db-query-validator": "^0.0.0",
+    "@mongodb-model/db-schema": "^0.0.0",
+    "@mongodb-model/error": "^0.0.0",
+    "@mongodb-model/lib": "^0.0.10000",
+    "@mongodb-model/man": "^0.0.0",
+    "@mongodb-model/method": "^0.0.100011",
+    "@mongodb-model/schema": "^0.0.0",
+    "@mongodb-model/template": "^0.0.0",
+    "dotenv": "16.0.3",
+    "mongodb": "4.11.0",
+    "vitest": "0.25.1"
+  }

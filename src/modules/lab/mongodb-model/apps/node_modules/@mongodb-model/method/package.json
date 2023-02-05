@@ -1,0 +1,41 @@
+{
+  "name": "@mongodb-model/method",
+  "version": "0.0.10",
+  "description": "method",
+  "main": "index.js",
+  "bin": {
+    "method": "bin/index.js"
+  },
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "vitest --globals"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mongodb-model/method.git"
+  },
+  "keywords": [
+    "method",
+    "stream",
+    "duplex",
+    "transform",
+    "eventEmitter"
+  ],
+  "author": "Ericson S. Weah <ericson.weah@gmail.com> (https://www.ericsonweah.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mongodb-model/method/issues"
+  },
+  "homepage": "https://github.com/mongodb-model/method#readme",
+  "dependencies": {
+    "@mongodb-model/base-model": "^0.0.10",
+    "@mongodb-model/db-callback": "^0.0.10",
+    "@mongodb-model/db-query": "^0.0.10",
+    "@mongodb-model/db-query-validator": "^0.0.10",
+    "dotenv": "16.0.3",
+    "mongodb": "4.11.0",
+    "vitest": "0.25.1"
+  }
+}

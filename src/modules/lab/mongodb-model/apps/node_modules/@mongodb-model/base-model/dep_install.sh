@@ -1,0 +1,1 @@
+npm install ../couleurs ../db-callback ../db-migrate ../db-migration ../db-promise ../db-query ../db-query-validator ../error ../http-controller ../man ../method ../schema ../tcp-controller ../template

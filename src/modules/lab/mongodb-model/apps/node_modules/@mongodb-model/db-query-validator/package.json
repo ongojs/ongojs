@@ -1,0 +1,38 @@
+{
+  "name": "@mongodb-model/db-query-validator",
+  "version": "0.0.10",
+  "description": "db-query-validator",
+  "main": "index.js",
+  "bin": {
+    "db-query-validator": "bin/index.js"
+  },
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "vitest --globals"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mongodb-model/db-query-validator.git"
+  },
+  "keywords": [
+    "mongodb",
+    "query",
+    "validator",
+    "stream",
+    "duplex",
+    "transform",
+    "eventEmitter"
+  ],
+  "author": "Ericson S. Weah <ericson.weah@gmail.com> (https://www.ericsonweah.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mongodb-model/db-query-validator/issues"
+  },
+  "homepage": "https://github.com/mongodb-model/db-query-validator#readme",
+  "dependencies": {
+    "dotenv": "16.0.3",
+    "mongodb": "4.11.0"
+  }
+}

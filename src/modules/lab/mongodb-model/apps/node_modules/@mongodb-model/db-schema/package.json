@@ -1,0 +1,38 @@
+{
+  "name": "@mongodb-model/db-schema",
+  "version": "0.0.10",
+  "description": "db-schema",
+  "main": "index.js",
+  "bin": {
+    "db-schema": "bin/index.js"
+  },
+  "directories": {
+    "doc": "docs",
+    "lib": "lib",
+    "test": "test"
+  },
+  "scripts": {
+    "test": "vitest --globals"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mongodb-model/db-schema.git"
+  },
+  "keywords": [
+    "schema",
+    "stream",
+    "duplex",
+    "transform",
+    "eventEmitter"
+  ],
+  "author": "Ericson S. Weah <ericson.weah@gmail.com> (https://www.ericsonweah.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mongodb-model/db-schema/issues"
+  },
+  "homepage": "https://github.com/mongodb-model/db-schema#readme",
+  "dependencies": {
+    "dotenv": "16.0.3",
+    "vitest": "0.25.1"
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "name": "@mongodb-model/db-query",
+  "version": "0.0.10",
+  "description": "db-query",
+  "main": "index.js",
+  "bin": {
+    "db-query": "bin/index.js"
+  },
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mongodb-model/db-query.git"
+  },
+  "keywords": [
+    "mongodb",
+    "query",
+    "stream",
+    "duplex",
+    "transform",
+    "eventEmitter"
+  ],
+  "author": "Ericson S. Weah <ericson.weah@gmail.com> (https://www.ericsonweah.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mongodb-model/db-query/issues"
+  },
+  "homepage": "https://github.com/mongodb-model/db-query#readme",
+  "dependencies": {
+    "dotenv": "16.0.3",
+    "mongodb": "4.11.0"
+  }
+}

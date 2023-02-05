@@ -39,7 +39,7 @@
     "@mongodb-model/base-model": "^0.0.10",
     "@mongodb-model/cli": "^0.0.10",
     "@mongodb-model/couleurs": "^0.0.10",
-    "@mongodb-model/db-callback": "^0.0.10",
+    "@mongodb-model/db-callback": "./src/modules/db-callback",
     "@mongodb-model/db-migrate": "^0.0.10",
     "@mongodb-model/db-migration": "^0.0.10",
     "@mongodb-model/db-promise": "^0.0.10",

@@ -1,0 +1,38 @@
+{
+  "name": "@mongodb-model/controller",
+  "version": "0.0.10",
+  "description": "controller",
+  "main": "index.js",
+  "bin": {
+    "controller": "bin/index.js"
+  },
+  "directories": {
+    "doc": "docs",
+    "lib": "lib",
+    "test": "test"
+  },
+  "scripts": {
+    "test": "vitest --globals"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mongodb-model/controller.git"
+  },
+  "keywords": [
+    "controller",
+    "stream",
+    "duplex",
+    "transform",
+    "eventEmitter"
+  ],
+  "author": "Ericson S. Weah <ericson.weah@gmail.com> (https://www.ericsonweah.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mongodb-model/controller/issues"
+  },
+  "homepage": "https://github.com/mongodb-model/controller#readme",
+  "dependencies": {
+    "dotenv": "16.0.3",
+    "vitest": "0.25.1"
+  }
+}

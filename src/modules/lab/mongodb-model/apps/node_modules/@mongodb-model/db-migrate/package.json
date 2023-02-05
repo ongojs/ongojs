@@ -1,0 +1,38 @@
+{
+  "name": "@mongodb-model/db-migrate",
+  "version": "0.0.10",
+  "description": "db-migrate",
+  "main": "index.js",
+  "bin": {
+    "db-migrate": "bin/index.js"
+  },
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "vitest --globals"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mongodb-model/db-migrate.git"
+  },
+  "keywords": [
+    "db-migrate",
+    "app",
+    "stream",
+    "duplex",
+    "transform",
+    "eventEmitter"
+  ],
+  "author": "Ericson S. Weah <ericson.weah@gmail.com> (https://www.ericsonweah.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mongodb-model/db-migrate/issues"
+  },
+  "homepage": "https://github.com/mongodb-model/db-migrate#readme",
+  "dependencies": {
+    "dotenv": "16.0.3",
+    "mongodb": "4.11.0",
+    "vitest": "0.25.1"
+  }
+}

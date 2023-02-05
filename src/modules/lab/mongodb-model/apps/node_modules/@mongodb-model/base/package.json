@@ -1,0 +1,34 @@
+{
+  "name": "@mongodb-model/base",
+  "version": "0.0.10",
+  "description": "base",
+  "main": "index.js",
+  "bin": {
+    "base": "bin/index.js"
+  },
+  "directories": {
+    "doc": "docs",
+    "lib": "lib",
+    "test": "test"
+  },
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mongodb-model/base.git"
+  },
+  "keywords": [
+    "base",
+    "stream",
+    "duplex",
+    "transform",
+    "eventEmitter"
+  ],
+  "author": "Ericson S. Weah <ericson.weah@gmail.com> (https://www.ericsonweah.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mongodb-model/base/issues"
+  },
+  "homepage": "https://github.com/mongodb-model/base#readme"
+}

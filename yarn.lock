@@ -885,6 +885,13 @@
   resolved "https://registry.yarnpkg.com/@mongodb-model/couleurs/-/couleurs-0.0.10.tgz#3d581f7aed3b5be077c2dbcd595fe7fbd634bef3"
   integrity sha512-jMTmkz8UkvSgzrzZW7Xls0/IVcV9lpOVggeSMmcx0lHfFKHXc6gbq/kAFmQJt4D1xIDTuW6JaTY3vGKFadwyUw==
 
+"@mongodb-model/db-callback@./src/modules/db-callback":
+  version "0.0.0"
+  dependencies:
+    dotenv "16.0.3"
+    mongodb "4.11.0"
+    vitest "0.25.1"
+
 "@mongodb-model/db-callback@^0.0.10":
   version "0.0.10"
   resolved "https://registry.yarnpkg.com/@mongodb-model/db-callback/-/db-callback-0.0.10.tgz#038d3921ce6b9c9765e3e3e89920386bb3213fa0"

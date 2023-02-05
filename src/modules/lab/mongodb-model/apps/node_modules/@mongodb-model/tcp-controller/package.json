@@ -1,0 +1,41 @@
+{
+  "name": "@mongodb-model/tcp-controller",
+  "version": "0.0.10",
+  "description": "tcp controller",
+  "main": "index.js",
+  "bin": {
+    "tcp-controller": "bin/index.js"
+  },
+  "directories": {
+    "doc": "docs",
+    "lib": "lib",
+    "test": "test"
+  },
+  "scripts": {
+    "test": "vitest --globals"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mongodb-model/tcp-controller.git"
+  },
+  "keywords": [
+    "tcp",
+    "tcp-controller",
+    "stream",
+    "duplex",
+    "transform",
+    "eventEmitter"
+  ],
+  "author": "Ericson S. Weah <ericson.weah@gmail.com> (https://www.ericsonweah.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mongodb-model/tcp-controller/issues"
+  },
+  "homepage": "https://github.com/mongodb-model/tcp-controller#readme",
+  "dependencies": {
+    "@mongodb-model/controller": "^0.0.10",
+    "@mongodb-model/couleurs": "^0.0.10",
+    "dotenv": "^16.0.3",
+    "vitest": "^0.25.3"
+  }
+}
