@@ -1,0 +1,3 @@
+yarn add @mongodb-model/base @mongodb-model/db-migrate @mongodb-model/cli @mongodb-model/couleurs @mongodb-model/db-callback @mongodb-model/db-migrate
+ yarn add @mongodb-model/db-migration @mongodb-model/db-promise @mongodb-model/db-query @mongodb-model/db-query-validator @mongodb-model/db-schema @mongodb-model/error @mongodb-model/http-controller 
+ yarn add @mongodb-model/lib @mongodb-model/man @mongodb-model/method @mongodb-model/schema @mongodb-model/tcp-controller @mongodb-model/template @mongodb-model/base-model

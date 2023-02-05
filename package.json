@@ -1,0 +1,61 @@
+{
+  "name": "ongojs",
+  "version": "0.0.0",
+  "description": "OngoJs",
+  "main": "index.js",
+  "bin": {
+    "ongojs": "bin/index.js"
+  },
+  "directories": {
+    "doc": "docs",
+    "lib": "lib"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "vitest --globals"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ongojs/ongojs.git"
+  },
+  "keywords": [
+    "ongojs",
+    "mvc",
+    "transform",
+    "stream",
+    "mongodb",
+    "controllers",
+    "models",
+    "views"
+  ],
+  "author": "Ericson S. Weah <ericson.weah@gmail.com> (https://www.ericsonweah.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ongojs/ongojs/issues"
+  },
+  "homepage": "https://github.com/ongojs/ongojs#readme",
+  "dependencies": {
+    "@mongodb-model/base": "^0.0.10",
+    "@mongodb-model/base-model": "^0.0.10",
+    "@mongodb-model/cli": "^0.0.10",
+    "@mongodb-model/couleurs": "^0.0.10",
+    "@mongodb-model/db-callback": "^0.0.10",
+    "@mongodb-model/db-migrate": "^0.0.10",
+    "@mongodb-model/db-migration": "^0.0.10",
+    "@mongodb-model/db-promise": "^0.0.10",
+    "@mongodb-model/db-query": "^0.0.10",
+    "@mongodb-model/db-query-validator": "^0.0.10",
+    "@mongodb-model/db-schema": "^0.0.10",
+    "@mongodb-model/error": "^0.0.10",
+    "@mongodb-model/http-controller": "^0.0.1",
+    "@mongodb-model/lib": "^0.0.10",
+    "@mongodb-model/man": "^0.0.10",
+    "@mongodb-model/method": "^0.0.10",
+    "@mongodb-model/schema": "^0.0.10",
+    "@mongodb-model/tcp-controller": "^0.0.10",
+    "@mongodb-model/template": "^0.0.11",
+    "dotenv": "^16.0.3",
+    "mongodb": "^4.12.1",
+    "vitest": "^0.25.3"
+  }
+}

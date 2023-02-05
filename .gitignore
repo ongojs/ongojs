@@ -1,0 +1,15 @@
+/node_modules
+.list.txt
+/lab
+/src/modules/*/"^.git"
+/.list.txt
+/.methods.txt
+/.query.txt 
+/.schema.txt
+/index.sh 
+/install.sh 
+/install_deps.sh 
+/data.json 
+/.DS_Store
+/lab 
+/dependencies
