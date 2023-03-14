@@ -1,0 +1,35 @@
+{
+  "name": "http-route",
+  "version": "0.0.0",
+  "description": "http-route",
+  "main": "index.js",
+  "bin": {
+    "http-route": "bin/index.js"
+  },
+  "directories": {
+    "doc": "docs",
+    "lib": "lib",
+    "test": "test"
+  },
+  "scripts": {
+    "test": "vitest --globals"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@gitlab.com/node-mvc/ongo/http-route.git"
+  },
+  "keywords": [
+    "http-route"
+  ],
+  "author": "Ericson S. weah <ericson.weah@gmail.com> (https://www.ericsonweah.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://gitlab.com/node-mvc/ongo/http-route/issues"
+  },
+  "homepage": "https://gitlab.com/node-mvc/ongo/http-route#readme",
+  "dependencies": {
+    "controller": "file:../controller",
+    "http-controller": "file:../http-controller",
+    "lib": "file:../lib"
+  }
+}

@@ -16,22 +16,22 @@
  * @classdesc CLI class
  */
 
-const Man = require("@mongodb-model/man");
-const Couleur = require("@mongodb-model/couleurs");
-const Method = require("@mongodb-model/method");
+const Man = require("@ongojs/man");
+const Couleur = require("@ongojs/couleurs");
+const Method = require("@ongojs/method");
 
 
 const MongoTransform = require("../");
-// const App = require("@mongodb-model/app");
+// const App = require("@ongojs/app");
 const Model = require("../src/cli");
-const Schema = require("@mongodb-model/schema");
-const Migration = require("@mongodb-model/db-migration");
-const Migrate = require("@mongodb-model/db-migrate");
+const Schema = require("@ongojs/schema");
+const Migration = require("@ongojs/db-migration");
+const Migrate = require("@ongojs/db-migrate");
 const {MethodCommand, MigrationCommand, MigrateCommand, SchemaCommand, ModelCommand} = require('../lib')().Commands()
 
 const { spawn } = require("node:child_process");
 const { join } = require("path");
-const ErrorNotification = require("@mongodb-model/error");
+const ErrorNotification = require("@ongojs/error");
 
 class CLI extends require("../base") {
   
@@ -154,7 +154,7 @@ class CLI extends require("../base") {
           new ModelCommand().list()
           break;
         case "make:model":
-          new ModelCommand().makeModel();
+          // new ModelCommand().makeModel();
           // console.log('make:model', new ModelCommand);
           break;
         case "make:schema":

@@ -1,0 +1,39 @@
+{
+  "name": "tcp-client",
+  "version": "0.0.0",
+  "description": "tcp-client",
+  "main": "index.js",
+  "bin": {
+    "tcp-client": "bin/index.js"
+  },
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "scripts": {
+    "test": "vitest --globals"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@gitlab.com/node-mvc/ongo/tcp-client.git"
+  },
+  "keywords": [
+    "tcp",
+    "tcp-client",
+    "socket",
+    "eventEmitter"
+  ],
+  "author": "Ericson S. weah <ericson.weah@gmail.com> (https://www.ericsonweah.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://gitlab.com/node-mvc/ongo/tcp-client/issues"
+  },
+  "homepage": "https://gitlab.com/node-mvc/ongo/tcp-client#readme",
+  "devDependencies": {
+    "vitest": "^0.24.0"
+  },
+  "dependencies": {
+    "dotenv": "16.0.3",
+    "socket.io-client": "4.5.2"
+  }
+}

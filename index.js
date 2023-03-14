@@ -23,10 +23,10 @@
 
 require('dotenv').config()
 const { MongoClient } = require("mongodb");
-const AsyncAwait = require("@mongodb-model/db-promise");
-const Callback = require('@mongodb-model/db-callback');
-const CallbackQuery = require('@mongodb-model/db-query');
-const CallbackQueryValidator = require('@mongodb-model/db-query-validator');
+const AsyncAwait = require("@ongojs/db-promise");
+const Callback = require('@ongojs/db-callback');
+const CallbackQuery = require('@ongojs/db-query');
+const CallbackQueryValidator = require('@ongojs/db-query-validator');
 
 
 class Model extends require("./base") {

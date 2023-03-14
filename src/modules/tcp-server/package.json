@@ -1,0 +1,46 @@
+{
+  "name": "tcp-server",
+  "version": "0.0.0",
+  "description": "tcp-server",
+  "main": "index.js",
+  "bin": {
+    "tcp-server": "bin/index.js"
+  },
+  "directories": {
+    "doc": "docs",
+    "lib": "lib",
+    "test": "test"
+  },
+  "scripts": {
+    "test": "vitest --globals"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@gitlab.com/node-mvc/ongo/tcp-server.git"
+  },
+  "keywords": [
+    "tcp",
+    "server",
+    "stream",
+    "eventEmitter"
+  ],
+  "author": "Ericson S. weah <ericson.weah@gmail.com> (https://www.ericsonweah.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://gitlab.com/node-mvc/ongo/tcp-server/issues"
+  },
+  "homepage": "https://gitlab.com/node-mvc/ongo/tcp-server#readme",
+  "dependencies": {
+    "@socket.io/redis-adapter": "7.2.0",
+    "cors": "2.8.5",
+    "dotenv": "16.0.3",
+    "express": "4.18.1",
+    "ioredis": "5.2.3",
+    "redis": "4.3.1",
+    "socket.io": "4.5.2",
+    "socket.io-redis": "6.1.1"
+  },
+  "devDependencies": {
+    "vitest": "^0.24.0"
+  }
+}

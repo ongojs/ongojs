@@ -1,0 +1,44 @@
+{
+  "name": "tcp-route-maker",
+  "version": "0.0.0",
+  "description": "tcp-route-maker",
+  "main": "index.js",
+  "bin": {
+    "tcp-route-maker": "bin/index.js"
+  },
+  "directories": {
+    "doc": "docs",
+    "lib": "lib",
+    "test": "test"
+  },
+  "scripts": {
+    "test": "vitest --globals"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@gitlab.com/node-mvc/ongo/tcp-route-maker.git"
+  },
+  "keywords": [
+    "tcp-route-maker",
+    "tcp",
+    "socket",
+    "duplex",
+    "transform",
+    "stream",
+    "eventEmitter"
+  ],
+  "author": "Ericson S. weah <ericson.weah@gmail.com> (https://www.ericsonweah.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://gitlab.com/node-mvc/ongo/tcp-route-maker/issues"
+  },
+  "homepage": "https://gitlab.com/node-mvc/ongo/tcp-route-maker#readme",
+  "dependencies": {
+    "controller": "file:../controller",
+    "lib": "file:../lib",
+    "socket.io-redis": "6.1.1"
+  },
+  "devDependencies": {
+    "vitest": "^0.24.3"
+  }
+}

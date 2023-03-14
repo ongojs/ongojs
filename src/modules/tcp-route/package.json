@@ -1,0 +1,40 @@
+{
+  "name": "tcp-route",
+  "version": "0.0.0",
+  "description": "tcp-route",
+  "main": "index.js",
+  "bin": {
+    "tcp-route": "bin/index.js"
+  },
+  "directories": {
+    "doc": "docs",
+    "lib": "lib",
+    "test": "test"
+  },
+  "scripts": {
+    "test": "vitest --globals"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@gitlab.com/node-mvc/ongo/tcp-route.git"
+  },
+  "keywords": [
+    "tcp-route",
+    "transform",
+    "duplex",
+    "stream",
+    "eventEmitter"
+  ],
+  "author": "Ericson S. weah <ericson.weah@gmail.com> (https://www.ericsonweah.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://gitlab.com/node-mvc/ongo/tcp-route/issues"
+  },
+  "homepage": "https://gitlab.com/node-mvc/ongo/tcp-route#readme",
+  "dependencies": {
+    "controller": "file:../controller",
+    "lib": "file:../lib",
+    "socket": "file:../socket",
+    "tcp-controller": "file:../tcp-controller"
+  }
+}
