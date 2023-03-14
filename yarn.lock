@@ -124,6 +124,9 @@
 "@ongojs/couleurs@./src/modules/couleurs":
   version "0.0.0"
 
+"@ongojs/db-callback@./src/modules/db-callback":
+  version "0.0.0"
+
 "@ongojs/db-migrate@./src/modules/db-migrate":
   version "0.0.0"
 
@@ -133,7 +136,7 @@
 "@ongojs/db-query-validator@./src/modules/db-query-validator":
   version "0.0.0"
 
-"@ongojs/db-query@file:src/modules/db-query":
+"@ongojs/db-query@./src/modules/db-query":
   version "0.0.0"
 
 "@ongojs/db-schema@./src/modules/db-schema":
