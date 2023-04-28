@@ -1,9 +1,8 @@
 {
-  "name": "ongojs",
+  "name": "@ongojs/ongojs",
   "version": "0.0.0",
   "description": "OnGo",
   "main": "index.js",
-  "private": true,
   "bin": {
     "ongojs": "bin/index.js"
   },
@@ -36,6 +35,17 @@
     "vitest": "^0.28.4"
   },
   "dependencies": {
-    "man": "./src/modules/man"
+    "@ongojs/base": "./src/modules/base",
+    "@ongojs/base-model": "./src/modules/base-model",
+    "@ongojs/cli": "./src/modules/cli",
+    "@ongojs/couleurs": "./src/modules/couleurs",
+    "@ongojs/db-callback": "./src/modules/db-callback",
+    "@ongojs/db-migrate": "./src/modules/db-migrate",
+    "@ongojs/db-promise": "./src/modules/db-promise",
+    "@ongojs/db-query": "./src/modules/db-query",
+    "@ongojs/db-query-validator": "./src/modules/db-query-validator",
+    "@ongojs/db-schema": "./src/modules/db-schema",
+    "@ongojs/lib": "./src/modules/lib",
+    "@ongojs/man": "./src/modules/man"
   }
 }

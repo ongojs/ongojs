@@ -16,9 +16,9 @@
  * @classdesc CLI class
  */
 
-const Man = require("@ongojs/man");
-const Couleur = require("@ongojs/couleurs");
-const Method = require("@ongojs/method");
+const Man = require("man");
+const Couleur = require("couleurs");
+const Method = require("method");
 
 
 const MongoTransform = require("../");
@@ -31,7 +31,7 @@ const {MethodCommand, MigrationCommand, MigrateCommand, SchemaCommand, ModelComm
 
 const { spawn } = require("node:child_process");
 const { join } = require("path");
-const ErrorNotification = require("@ongojs/error");
+const ErrorNotification = require("error");
 
 class CLI extends require("../base") {
   
