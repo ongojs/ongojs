@@ -17,7 +17,7 @@
  */
 
 const Man = require("man");
-const Couleur = require("couleurs");
+const Couleur = require("../src/modules/couleurs");
 // const Method = require("method");
 
 
@@ -31,9 +31,9 @@ const {MethodCommand, MigrationCommand, MigrateCommand, SchemaCommand, ModelComm
 
 const { spawn } = require("node:child_process");
 const { join } = require("path");
-const ErrorNotification = require("error");
+const ErrorNotification = require("../src/modules/error");
 
-class CLI extends require("../src/module/base") {
+class CLI extends require("../src/modules/base") {
   
   constructor(...arrayOfObjects) {
     super({ objectMode: true, encoding: "utf-8", autoDestroy: true });
