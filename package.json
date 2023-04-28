@@ -36,6 +36,7 @@
     "vitest": "^0.28.4"
   },
   "dependencies": {
+    "couleurs": "./src/modules/couleurs",
     "man": "./src/modules/man"
   }
 }

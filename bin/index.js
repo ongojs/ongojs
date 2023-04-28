@@ -18,22 +18,22 @@
 
 const Man = require("man");
 const Couleur = require("couleurs");
-const Method = require("method");
+// const Method = require("method");
 
 
 const MongoTransform = require("../");
 // const App = require("@ongojs/app");
 const Model = require("../src/cli");
-const Schema = require("@ongojs/schema");
-const Migration = require("@ongojs/db-migration");
-const Migrate = require("@ongojs/db-migrate");
+// const Schema = require("@ongojs/schema");
+// const Migration = require("@ongojs/db-migration");
+// const Migrate = require("@ongojs/db-migrate");
 const {MethodCommand, MigrationCommand, MigrateCommand, SchemaCommand, ModelCommand} = require('../lib')().Commands()
 
 const { spawn } = require("node:child_process");
 const { join } = require("path");
 const ErrorNotification = require("error");
 
-class CLI extends require("../base") {
+class CLI extends require("../src/module/base") {
   
   constructor(...arrayOfObjects) {
     super({ objectMode: true, encoding: "utf-8", autoDestroy: true });

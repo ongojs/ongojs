@@ -20,11 +20,11 @@ const {join } = require('node:path');
 const {existsSync} = require('fs')
 
 const { exec } = require('node:child_process');
-const Template  = require('@ongojs/template');
+const Template  = require('../modules/template');
 
 const {model} = new Template;
 
-class Model extends require("../../base"){
+class Model extends require("../modules/base"){
   constructor(options = {}) {
     super({ objectMode: true, encoding: "utf-8", autoDestroy: true });
 

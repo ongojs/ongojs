@@ -23,13 +23,13 @@
 
 require('dotenv').config()
 const { MongoClient } = require("mongodb");
-const AsyncAwait = require("@ongojs/db-promise");
-const Callback = require('@ongojs/db-callback');
-const CallbackQuery = require('@ongojs/db-query');
-const CallbackQueryValidator = require('@ongojs/db-query-validator');
+// const AsyncAwait = require("@ongojs/db-promise");
+// const Callback = require('@ongojs/db-callback');
+// const CallbackQuery = require('@ongojs/db-query');
+// const CallbackQueryValidator = require('@ongojs/db-query-validator');
 
 
-class Model extends require("./base") {
+class Model extends require("./src/modules/base") {
     constructor(...arrayOfObjects) {
 
         super({ objectMode: true, encoding: "utf-8", autoDestroy: true });
@@ -45,7 +45,7 @@ class Model extends require("./base") {
         // auto invoke methods
         this.autoinvoker(Model);
         // add other classes method if methods do not already exist. Argument order matters!
-        this.methodizer(AsyncAwait,Callback, CallbackQuery, CallbackQueryValidator);
+        // this.methodizer(AsyncAwait,Callback, CallbackQuery, CallbackQueryValidator);
         //Set the maximum number of listeners to infinity
         this.setMaxListeners(Infinity);
       }
